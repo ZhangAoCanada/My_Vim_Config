@@ -72,6 +72,9 @@ set wildmenu
 set nospell
 set termguicolors
 
+noremap <leader>y "+y
+noremap <leader>p "+p
+
 "colorscheme night-owl
 "colorscheme minimalist
 "colorscheme ayu
