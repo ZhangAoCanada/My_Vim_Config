@@ -35,6 +35,7 @@ Plugin 'valloric/YouCompleteMe'
 Plugin 'preservim/nerdcommenter'
 Plugin 'scrooloose/syntastic'
 Plugin 'vim-airline/vim-airline'
+" color themes
 Plugin 'joshdick/onedark.vim'
 Plugin 'tomasiser/vim-code-dark'
 Plugin 'mhartington/oceanic-next'
