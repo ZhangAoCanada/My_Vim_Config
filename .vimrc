@@ -79,7 +79,7 @@ set list
 set listchars=tab:>-
 set wildmenu
 set nospell
-set termguicolors
+"set termguicolors
 
 noremap <leader>y "+y
 noremap <leader>p "+p
