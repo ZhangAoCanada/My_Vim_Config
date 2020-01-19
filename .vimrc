@@ -1,3 +1,4 @@
+syntax enable
 syntax on
 set encoding=utf-8
 set spell spelllang=en_us
@@ -42,7 +43,8 @@ Plugin 'mhartington/oceanic-next'
 Plugin 'ayu-theme/ayu-vim'
 Plugin 'dikiaap/minimalist'
 Plugin 'haishanh/night-owl.vim'
-
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'lifepillar/vim-solarized8'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -88,9 +90,12 @@ noremap <leader>p "+p
 "colorscheme night-owl
 "colorscheme minimalist
 "colorscheme ayu
-colorscheme onedark
+"colorscheme onedark
 "colorscheme codedark
 "colorscheme OceanicNext
+set background=dark
+colorscheme solarized
+"colorscheme solarized8
 
 "set t_Co=256
 "let ayucolor="dark"
