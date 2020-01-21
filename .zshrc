@@ -9,7 +9,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/aozhang/.oh-my-zsh"
+export ZSH="/home/ao/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -121,3 +121,7 @@ prompt_context() {
     prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
   fi
 }
+
+source /opt/ros/melodic/setup.zsh
+source ~/catkin_ws/devel/setup.zsh
+export HUSKY_GAZEBO_DESCRIPTION=$(rospack find husky_gazebo)/urdf/description.gazebo.xacro
