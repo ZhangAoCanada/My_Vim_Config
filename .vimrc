@@ -36,6 +36,7 @@ Plugin 'valloric/YouCompleteMe'
 Plugin 'preservim/nerdcommenter'
 Plugin 'scrooloose/syntastic'
 Plugin 'vim-airline/vim-airline'
+"Plugin 'taketwo/vim-ros'
 " color themes
 Plugin 'joshdick/onedark.vim'
 Plugin 'tomasiser/vim-code-dark'
@@ -78,8 +79,9 @@ nmap <leader>tr : NERDTreeToggle<cr>
 nmap <leader>syn : SyntasticToggleMode<cr>
 set number
 set hlsearch
-set list
-set listchars=tab:>-
+"set list
+"set listchars=tab:>-
+set tabstop=4
 set wildmenu
 set nospell
 "set termguicolors
