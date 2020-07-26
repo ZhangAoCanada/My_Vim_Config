@@ -1,0 +1,121 @@
+{
+    "workbench.colorTheme": "Solarized Dark+",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "workbench.iconTheme": "vscode-icons",
+    "C_Cpp.updateChannel": "Insiders",
+    "cmake.configureOnOpen": true,
+    "vim.easymotion": true,
+    "vim.leader": ",",
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+    
+    ],
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+    ],
+
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>", "c", "c"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        },
+
+        {
+            "before": [
+                "<leader>", "y"
+            ],
+            "commands": [
+                "editor.action.clipboardCopyAction"
+            ]
+        },
+
+        {
+            "before": [
+                "<leader>", "p"
+            ],
+            "commands": [
+                "editor.action.clipboardPasteAction"
+            ]
+        },
+    ],
+
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>", "c", "c"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        },
+
+        {
+            "before": [
+                "<leader>", "t", "r"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+
+        {
+            "before": [
+                "g", "t"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+
+        // {
+        //     "before": [
+        //         "<leader>", "t", "r"
+        //     ],
+        //     "commands": [
+        //         "workbench.view.explorer"
+        //     ]
+        // },
+
+        // {
+        //     "before": [
+        //         "<leader>", "y"
+        //     ],
+        //     "commands": [
+        //         "editor.action.clipboardCopyAction"
+        //     ]
+        // },
+
+        // {
+        //     "before": [
+        //         "<leader>", "p"
+        //     ],
+        //     "commands": [
+        //         "editor.action.clipboardPasteAction"
+        //     ]
+        // },
+    ],
+
+}
