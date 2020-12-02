@@ -1,7 +1,19 @@
-syntax enable
+"syntax enable
 syntax on
 set encoding=utf-8
 set spell spelllang=en_us
+
+"if &term =~ '^xterm'
+  "" solid underscore
+  "let &t_SI .= "\<Esc>[5 q"
+  "" solid block
+  "let &t_EI .= "\<Esc>[2 q"
+  "" 1 or 0 -> blinking block
+  "" 3 -> blinking underscore
+  "" Recent versions of xterm (282 or above) also support
+  "" 5 -> blinking vertical bar
+  "" 6 -> solid vertical bar
+"endif
 
 "set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -82,7 +94,11 @@ set number
 set hlsearch
 "set list
 "set listchars=tab:>-
+
 set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+
 set wildmenu
 set nospell
 "set termguicolors
@@ -90,13 +106,13 @@ set nospell
 noremap <leader>y "+y
 noremap <leader>p "+p
 
+set background=dark
 "colorscheme night-owl
 "colorscheme minimalist
 "colorscheme ayu
 "colorscheme onedark
 "colorscheme codedark
 "colorscheme OceanicNext
-set background=dark
 colorscheme solarized
 "colorscheme solarized8
 
