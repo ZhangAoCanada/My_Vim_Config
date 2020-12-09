@@ -17,7 +17,8 @@ export ZSH="/home/ao/.oh-my-zsh"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
 # ZSH_THEME="powerlevel9k/powerlevel9k"
-ZSH_THEME="agnoster"
+#ZSH_THEME="agnoster"
+ZSH_THEME="muse"
 #ZSH_THEME="powerlevel10k/powerlevel10k"
 #POWERLEVEL9K_MODE="awesome-patched"
 #plugins=(zsh-autosuggestions)
