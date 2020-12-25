@@ -10,7 +10,7 @@
   "profiles": [
     {
       "useAcrylic": true,
-      "acrylicOpacity": 0.5,
+      "acrylicOpacity": 0.8,
       "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
       "name": "Ubuntu-18.04",
       "source": "Windows.Terminal.Wsl",
