@@ -2,6 +2,7 @@
 syntax on
 set encoding=utf-8
 set spell spelllang=en_us
+set visualbell
 
 "if &term =~ '^xterm'
   "" solid underscore
