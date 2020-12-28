@@ -110,7 +110,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias pip3=pip3.6
 
 export PATH="/usr/local/opt/qt/bin:$PATH"
 
@@ -123,6 +122,17 @@ prompt_context() {
   fi
 }
 
+##### define python version first #####
+alias pip3=pip3.6
+
+##### define cuda path #####
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+export CUDA_HOME=/usr/local/cuda-10.1
+#export CUDA_HOME=/usr/local/cuda
+export LD_LIBRARY_PATH=${CUDA_HOME}/lib64:$LD_LIBRARY_PATH
+export PATH=${CUDA_HOME}/bin:$PATH
+
+##### define ros path #####
 source /opt/ros/melodic/setup.zsh
 source ~/catkin_ws/devel/setup.zsh
 export HUSKY_GAZEBO_DESCRIPTION=$(rospack find husky_gazebo)/urdf/description.gazebo.xacro
