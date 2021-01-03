@@ -8,6 +8,8 @@ set visualbell
 """"" sudo apt install ctags (brew install ctags)
 """"" cd ${PROJECT_DIR} && ctags -R
 set tags=./tags,tags;$HOME
+map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 
 "if &term =~ '^xterm'
   "" solid underscore
