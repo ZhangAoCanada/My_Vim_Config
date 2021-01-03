@@ -4,6 +4,11 @@ set encoding=utf-8
 set spell spelllang=en_us
 set visualbell
 
+""""""""""install ctags before using it
+""""" sudo apt install ctags (brew install ctags)
+""""" cd ${PROJECT_DIR} && ctags -R
+set tags=./tags,tags;$HOME
+
 "if &term =~ '^xterm'
   "" solid underscore
   "let &t_SI .= "\<Esc>[5 q"
