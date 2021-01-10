@@ -145,5 +145,7 @@ let g:airline#extensions#tabline#enabled = 1
 "endif
 "let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
-hi Normal guibg=NONE ctermbg=NONE
-highlight LineNr ctermfg=None ctermbg=None
+"hi Normal guibg=NONE ctermbg=NONE
+"highlight LineNr ctermfg=None ctermbg=None
+"hi airline_c  ctermbg=NONE guibg=NONE
+"hi airline_tabfill ctermbg=NONE guibg=NONE
