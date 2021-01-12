@@ -14,23 +14,23 @@
     
     ],
     "vim.insertModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                ">"
-            ],
-            "commands": [
-                "editor.action.indentLines"
-            ]
-        },
+        // {
+        //     "before": [
+        //         ">"
+        //     ],
+        //     "commands": [
+        //         "editor.action.indentLines"
+        //     ]
+        // },
 
-        {
-            "before": [
-                "<"
-            ],
-            "commands": [
-                "editor.action.outdentLines"
-            ]
-        },
+        // {
+        //     "before": [
+        //         "<"
+        //     ],
+        //     "commands": [
+        //         "editor.action.outdentLines"
+        //     ]
+        // },
     ],
 
     "vim.visualModeKeyBindingsNonRecursive": [
@@ -40,6 +40,15 @@
             ],
             "commands": [
                 "editor.action.commentLine"
+            ]
+        },
+
+        {
+            "before": [
+                "<leader>", "c", "u"
+            ],
+            "commands": [
+                "editor.action.removecommentLine"
             ]
         },
 
@@ -69,6 +78,15 @@
             ],
             "commands": [
                 "editor.action.commentLine"
+            ]
+        },
+
+        {
+            "before": [
+                "<leader>", "c", "u"
+            ],
+            "commands": [
+                "editor.action.removecommentLine"
             ]
         },
 
