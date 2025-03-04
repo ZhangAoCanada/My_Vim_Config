@@ -66,6 +66,8 @@ Plugin 'dikiaap/minimalist'
 Plugin 'haishanh/night-owl.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'lifepillar/vim-solarized8'
+" for gh copilot
+Plugin 'github/copilot.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -119,10 +121,10 @@ set background=dark
 "colorscheme night-owl
 "colorscheme minimalist
 "colorscheme ayu
-"colorscheme onedark
+colorscheme onedark
 "colorscheme codedark
 "colorscheme OceanicNext
-colorscheme solarized
+"colorscheme solarized
 "colorscheme solarized8
 
 "set t_Co=256
@@ -140,10 +142,10 @@ let g:airline_theme = 'onedark'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 
-"if (has("termguicolors"))
-" set termguicolors
-"endif
-"let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+if (has("termguicolors"))
+ set termguicolors
+endif
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 "hi Normal guibg=NONE ctermbg=NONE
 "highlight LineNr ctermfg=None ctermbg=None
